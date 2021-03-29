@@ -6,11 +6,16 @@
 body {
   font-family: 'Press Start 2P', cursive;
   min-height: 400px;
+  max-width: 100%;
   background-image: url('https://images6.alphacoders.com/860/thumb-1920-860645.png');
   background-color: #111;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+   /*estilos*/
 }
 
 .container {
